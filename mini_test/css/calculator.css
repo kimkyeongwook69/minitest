@@ -1,0 +1,108 @@
+body{
+    left: 10px;
+  
+}
+
+.calculator{
+    width : 300px;
+    height : 600px;
+    border-radius : 30px;
+    margin : 100px;
+
+}
+
+figure{
+    width : 300px;
+    height : 450px;
+    margin : 15px;
+    background-color: greenyellow;
+}
+
+.display{
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size : 40px;
+    width : 240px;
+    height : 50px;
+    padding : 5px;
+    margin : 15px 5px;
+    background-color: #212121;
+    color : white;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin : 0;
+}
+
+li{
+    list-style: none;
+}
+
+.ac{
+    width : 177px;
+    height : 55px;
+    background-color: yellow;
+    border : #424242;
+    color : black;
+    font-size: 18px;
+    margin : 4px;
+}
+.number{
+    width : 55px;
+    height : 55px;
+    background-color: yellow;
+    border : yellow;
+    color : black;
+    margin : 4px;
+    font-size: 18px;
+    
+}
+
+
+.operator{
+    width : 55px;
+    height : 55px;
+    margin : 4px;
+    background-color: yellow;
+
+    border : yellow;
+    color : black;
+    font-size: 18px;
+}
+
+
+.dot{
+    width : 55px;
+    height : 55px;
+    background-color: yellow;
+    border : yellow;
+    color : black;
+    font-size: 18px;
+    margin : 4px;
+}
+
+.number0{
+    width : 118px;
+    height: 55px;
+    background-color: yellow;
+    border : yellow;
+    color : black;
+    font-size: 18px;
+    margin : 4px;
+}
+
+.equals{
+    width : 55px;
+    height: 55px;
+    background-color: yellow;
+    border : yellow;
+    color : black;
+    font-size: 18px;
+    margin : 4px;
+}
